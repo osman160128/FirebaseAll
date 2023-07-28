@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:layout_marginTop="20dp"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome back"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:id="@+id/text_view_Login_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    <EditText
+        android:id="@+id/edittext_Login_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email*"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:layout_below="@+id/text_view_Login_Email"
+        android:layout_marginTop="7dp"
+        android:padding="6dp"
+        android:background="@drawable/border"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    <TextView
+        android:id="@+id/text_view_Login_Pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"
+        android:layout_below="@+id/edittext_Login_Email"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+   <ImageView
+       android:id="@+id/image_view_show_hide_pwd"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:layout_below="@id/text_view_Login_Pasword"
+       android:layout_marginTop="7dp"/>
+    <EditText
+        android:id="@+id/edittext_LoginActivity_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email*"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:layout_below="@+id/text_view_Login_Pasword"
+        android:layout_marginTop="7dp"
+        android:padding="6dp"
+        android:layout_marginLeft="42dp"
+        android:background="@drawable/border"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Login"
+        android:layout_below="@+id/edittext_LoginActivity_Password"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/foregetPasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="forget password"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ProgressBar
+        android:id="@+id/loginProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:elevation="10dp"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateEmailActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_update_email_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can update your email"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    <TextView
+        android:id="@+id/text_view_update_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Old Email"
+        android:textSize="20sp"
+        android:layout_below="@+id/text_view_update_email_head"
+        android:layout_marginTop="50dp"
+        android:padding="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    <TextView
+        android:id="@+id/edittext_update_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="old email"
+        android:textSize="20sp"
+        android:layout_below="@+id/text_view_update_email"
+        android:layout_marginTop="7dp"
+        android:padding="6dp"
+        android:background="@drawable/border"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+        <TextView
+            android:id="@+id/text_view_update_email_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20sp"
+            android:layout_below="@+id/edittext_update_email"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+        <EditText
+            android:id="@+id/edittext_update_email_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:textSize="20sp"
+            android:layout_below="@+id/text_view_update_email_pwd"
+            android:layout_marginTop="7dp"
+            android:padding="6dp"
+            android:background="@drawable/border"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+        <Button
+            android:id="@+id/auth_email_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:text="Authontication"
+            android:layout_below="@+id/edittext_update_email_pwd"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/text_view_new_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Email"
+            android:textSize="20sp"
+            android:layout_below="@+id/auth_email_Button"
+            android:layout_marginTop="50dp"
+            android:padding="6dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+        <EditText
+            android:id="@+id/edittext_new_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Email"
+            android:textSize="20sp"
+            android:layout_below="@+id/text_view_new_email"
+            android:layout_marginTop="7dp"
+            android:padding="6dp"
+            android:background="@drawable/border"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        <Button
+            android:id="@+id/set_new_email_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Update Email"
+            android:layout_below="@+id/edittext_new_email"
+            android:layout_centerHorizontal="true"
+
+            />
+    </RelativeLayout>
+</ScrollView>

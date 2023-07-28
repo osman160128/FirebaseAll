@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/menu_refresh"
+    android:icon="@drawable/baseline_refresh_24"
+    android:title="Refresh"
+    android:alphabeticShortcut="r"
+    app:showAsAction="ifRoom"
+    android:iconTint="#ffffff"
+    />
+
+    <item
+        android:title="Update Profile"
+        android:id="@+id/menu_update_profile"
+        />
+
+    <item
+        android:title="Update Email "
+        android:id="@+id/menu_update_email"
+        />
+
+    <item
+        android:title="Setting"
+        android:id="@+id/menu_setting"
+        />
+
+    <item
+        android:title="Change Password"
+        android:id="@+id/menu_update_password"
+        />
+
+    <item
+        android:title="Delete Profile"
+        android:id="@+id/menu_delete"
+        />
+
+    <item
+        android:title="Log Out"
+        android:id="@+id/menu_log_out"
+        />
+</menu>

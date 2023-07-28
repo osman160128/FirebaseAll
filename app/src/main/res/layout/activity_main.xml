@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        >
+        <ImageView
+            android:id="@+id/imageview_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/text_view_main_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="Welcome to Android Firebase APp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_below="@+id/imageview_logo"
+            />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="32sp"
+            android:layout_marginTop="100dp"
+            android:layout_below="@+id/text_view_main_head"
+            android:layout_marginLeft="110dp"
+            />
+        <Button
+            android:id="@+id/button_registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration "
+            android:textSize="32sp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/button_login"
+            android:layout_marginLeft="30dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
