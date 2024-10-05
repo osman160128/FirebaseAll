@@ -1,4 +1,4 @@
-<H1>Firebase Integration in Android with Java
+<H4>Firebase Integration in Android with Java
 
 This project demonstrates the basic functionalities of Firebase using Java in an Android application. The following core Firebase features are implemented:
 Features
@@ -38,4 +38,4 @@ How It Works
 
     Authentication: Firebase Authentication handles user login and registration, making it easy to secure user data.
     Database Operations: The app allows storing and retrieving data from Firebase's real-time database, ensuring that the app stays synchronized in real time.
-    User Updates: Users can update their email and personal information, which is securely updated in Firebase. Password change functionality is also available for enhanced user control.</H1>
+    User Updates: Users can update their email and personal information, which is securely updated in Firebase. Password change functionality is also available for enhanced user control.</H4>
